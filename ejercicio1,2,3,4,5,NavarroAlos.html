@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="botoncito"> botoncito</button>
+  
+    <script> 
+
+     let nombre = "Fede" ;
+     let edad = 17 ;
+     let estudiante = true ;
+      alert("SALUDOS "+nombre);
+    let valor = prompt("Ingrese un valor: ");
+    if (valor<=0) {
+    alert("el valor es negativo" );
+    } else {
+    alert(" es positivo");  
+    }   
+    let i = 0;
+
+    while (i < 6) {
+    console.log(i);
+    i++;
+    }
+    for (let i = 1; i <= 5; i++) {
+    console.log(i);
+
+}
+document.getElementById("botoncito").addEventListener("click", function() {
+    console.log("Tocaste el botoncito");
+});
+
+
+    </script>
+</body>
+</html>
